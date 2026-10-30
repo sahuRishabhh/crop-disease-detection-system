@@ -1,0 +1,78 @@
+{
+  "model_path": "models\\mobilenet_v2_crop_disease.pt",
+  "total_test_samples": 36,
+  "overall_accuracy": 0.8889,
+  "macro_avg_f1": 0.8519,
+  "weighted_avg_f1": 0.8519,
+  "average_inference_latency_ms": 51.37,
+  "classification_report": {
+    "Apple___Apple_scab": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 4.0
+    },
+    "Apple___healthy": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 4.0
+    },
+    "Corn_(maize)___Common_rust_": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 4.0
+    },
+    "Corn_(maize)___healthy": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 4.0
+    },
+    "Potato___Early_blight": {
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1-score": 0.6666666666666666,
+      "support": 4.0
+    },
+    "Potato___healthy": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 4.0
+    },
+    "Tomato___Early_blight": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "Tomato___Late_blight": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 4.0
+    },
+    "Tomato___healthy": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 4.0
+    },
+    "accuracy": 0.8888888888888888,
+    "macro avg": {
+      "precision": 0.8333333333333334,
+      "recall": 0.8888888888888888,
+      "f1-score": 0.8518518518518517,
+      "support": 36.0
+    },
+    "weighted avg": {
+      "precision": 0.8333333333333334,
+      "recall": 0.8888888888888888,
+      "f1-score": 0.8518518518518517,
+      "support": 36.0
+    }
+  },
+  "evaluation_timestamp": "2026-10-29 00:21:06"
+}

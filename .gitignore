@@ -1,0 +1,131 @@
+# =====================================================================
+# Git Ignore Configuration: Crop Disease Detection System
+# =====================================================================
+
+# --- Virtual Environments ---
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# --- Python & Testing ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.nox/
+.tox/
+.hypothesis/
+
+# --- Node.js & Frontend ---
+node_modules/
+frontend/node_modules/
+frontend/dist/
+dist/
+frontend/.vite/
+.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# --- Environment & Secrets ---
+.env
+.env.local
+.env.*.local
+.env.development
+.env.test
+.env.production
+backend/.env
+frontend/.env.local
+frontend/.env.production
+!.env.example
+!backend/.env.example
+!frontend/.env.example
+
+# --- Local Databases & Data Persistence ---
+*.db
+*.sqlite
+*.sqlite3
+backend/crop_disease.db
+backend/*.db
+
+# --- Full / Large External Datasets ---
+data/plantvillage/
+data/raw/
+data/downloads/
+data/external/
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+
+# Keep sample images and test fixtures
+!data/fixtures/
+!data/sample_images/
+!data/README.md
+
+# --- Model Checkpoints ---
+# Temporary training checkpoints and large uncompressed checkpoints
+models/checkpoints/
+models/temp/
+*.pth
+*.ckpt
+*.onnx
+
+# Allow baseline compact model and label definitions
+!models/mobilenet_v2_crop_disease.pt
+!models/class_labels.json
+!models/README.md
+
+# --- Evaluation Outputs ---
+# Keep baseline verification figures and metrics
+!outputs/metrics.json
+!outputs/training_history.json
+!outputs/confusion_matrix.png
+!outputs/training_curves.png
+!outputs/README.md
+
+# --- IDEs & OS Files ---
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# --- Jupyter Checkpoints & Temporary Logs ---
+.ipynb_checkpoints/
+*.log
+logs/
+temp/
+tmp/

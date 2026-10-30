@@ -1,0 +1,43 @@
+{
+  "model_name": "mobilenet_v2",
+  "epochs": 3,
+  "batch_size": 8,
+  "learning_rate": 0.001,
+  "device": "cpu",
+  "smoke_test": false,
+  "classes": [
+    "Apple___Apple_scab",
+    "Apple___healthy",
+    "Corn_(maize)___Common_rust_",
+    "Corn_(maize)___healthy",
+    "Potato___Early_blight",
+    "Potato___healthy",
+    "Tomato___Early_blight",
+    "Tomato___Late_blight",
+    "Tomato___healthy"
+  ],
+  "train_loss": [
+    1.556,
+    0.7816,
+    0.5219
+  ],
+  "train_acc": [
+    0.4815,
+    0.6852,
+    0.787
+  ],
+  "val_loss": [
+    1.0989,
+    1.3174,
+    0.279
+  ],
+  "val_acc": [
+    0.5556,
+    0.6111,
+    0.8889
+  ],
+  "timestamp": "2026-10-29 00:18:38",
+  "total_training_time_seconds": 47.34,
+  "best_val_loss": 0.279,
+  "best_val_acc": 0.8889
+}

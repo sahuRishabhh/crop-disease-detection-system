@@ -1,0 +1,397 @@
+{
+  "Tomato___Early_blight": {
+    "crop_name": "Tomato",
+    "disease_name": "Early Blight",
+    "is_healthy": false,
+    "pathogen": "Alternaria solani (Fungus)",
+    "symptoms": [
+      "Dark brown to black spots with characteristic concentric rings ('bullseye' pattern) on older leaves.",
+      "Yellow halos often surround the circular spots as they expand.",
+      "Lower foliage yellows, withers, and eventually drops off prematurely.",
+      "Dark, sunken, leathery lesions can form on stems and near the stem-end of fruit."
+    ],
+    "prevention": [
+      "Practice a 2- to 3-year crop rotation away from solanaceous crops (tomatoes, potatoes, eggplants).",
+      "Ensure proper plant spacing and staking to maximize airflow and sunlight penetration.",
+      "Water at the base using drip irrigation to avoid wetting foliage; avoid overhead watering.",
+      "Apply organic mulch around plants to prevent soil-borne fungal spores from splashing onto foliage."
+    ],
+    "management": [
+      "Prune and remove infected lower leaves early in the morning on dry days.",
+      "Dispose of infected plant residues; do not compost diseased material.",
+      "Maintain balanced soil nutrition; avoid excessive nitrogen that promotes lush, susceptible foliage.",
+      "Consult local agricultural extension agents for regional bio-fungicide or copper-based preventive programs."
+    ],
+    "limitations": "Early blight symptoms can occasionally mimic Septoria leaf spot or physical leaf scorching in early stages.",
+    "references": ["USDA Agricultural Research Service", "Penn State Extension - Tomato Early Blight IPM Guide"]
+  },
+  "Tomato___Late_blight": {
+    "crop_name": "Tomato",
+    "disease_name": "Late Blight",
+    "is_healthy": false,
+    "pathogen": "Phytophthora infestans (Oomycete)",
+    "symptoms": [
+      "Irregular, water-soaked pale green or dark brown lesions rapidly spreading across leaves.",
+      "White fungal-like fuzzy growth on the undersides of leaves during humid or wet weather.",
+      "Dark brown to black lesions on petioles and stems.",
+      "Firm, rough, olive-brown sunken patches on green or ripening fruit."
+    ],
+    "prevention": [
+      "Plant certified disease-free transplants and resistant cultivars when available.",
+      "Avoid planting tomatoes adjacent to or following potatoes.",
+      "Eliminate cull piles and volunteer tomato and potato plants in the vicinity.",
+      "Maintain good canopy ventilation and avoid overhead irrigation."
+    ],
+    "management": [
+      "Late blight spreads aggressively; infected plants must be removed immediately to protect neighboring crops.",
+      "Bag and remove infected tissues from the field; do not leave discarded vines nearby.",
+      "Monitor local late-blight forecasting networks and extension alerts.",
+      "Consult certified plant pathologists for region-approved protective fungicide protocols."
+    ],
+    "limitations": "Late blight moves extremely fast in cool, wet conditions (60-70°F). Rapid physical inspection is critical.",
+    "references": ["Cornell University Vegetable MD Online", "University of Florida IFAS Extension"]
+  },
+  "Tomato___Leaf_Mold": {
+    "crop_name": "Tomato",
+    "disease_name": "Leaf Mold",
+    "is_healthy": false,
+    "pathogen": "Passalora fulva (syn. Cladosporium fulvum)",
+    "symptoms": [
+      "Pale green to yellowish spots with indistinct margins on the upper leaf surface.",
+      "Olive-green to brown velvety fungal growth on the corresponding lower surface.",
+      "Infected leaves eventually turn yellow, curl, wither, and drop prematurely."
+    ],
+    "prevention": [
+      "Common in high tunnels and greenhouses; maximize ventilation to keep relative humidity below 85%.",
+      "Space plants generously to promote rapid drying of foliage.",
+      "Circulate air with fans and avoid wetting foliage during irrigation."
+    ],
+    "management": [
+      "Prune lower foliage to improve vertical airflow within greenhouse canopies.",
+      "Sanitize greenhouse structures, stakes, and tools between planting cycles.",
+      "Consult agricultural extension services for resistant tomato varieties and authorized treatments."
+    ],
+    "limitations": "Leaf mold predominantly occurs in humid protected environments; less common in open arid field settings.",
+    "references": ["University of Massachusetts Amherst Extension", "NC State Extension Plant Pathology"]
+  },
+  "Tomato___Bacterial_spot": {
+    "crop_name": "Tomato",
+    "disease_name": "Bacterial Spot",
+    "is_healthy": false,
+    "pathogen": "Xanthomonas perforans / Xanthomonas vesicatoria",
+    "symptoms": [
+      "Small (1/8 inch), water-soaked, dark brown or black angular spots on leaves.",
+      "Centers of lesions may dry out and tear, creating a ragged or shot-hole appearance.",
+      "Blister-like, scabby, or rough brown spots on green fruit.",
+      "Severe infections lead to general leaf yellowing and extensive defoliation."
+    ],
+    "prevention": [
+      "Use certified disease-free, hot-water treated seeds and healthy transplants.",
+      "Sanitize greenhouse flats, stakes, and pruning shears with standard disinfectant.",
+      "Avoid working in or harvesting fields while foliage is wet from rain or dew.",
+      "Implement a minimum 2-year crop rotation away from solanaceous crops."
+    ],
+    "management": [
+      "Remove and destroy severely infected seedlings before field transplanting.",
+      "Copper-based bactericides combined with mancozeb may slow spread when applied preventively.",
+      "Consult regional agronomy specialists for diagnostic confirmation and local resistance patterns."
+    ],
+    "limitations": "Bacterial diseases do not respond to fungal fungicides. Distinguishing bacterial spot from speck requires close examination.",
+    "references": ["Purdue University Extension", "University of Florida Vegetable Production Handbook"]
+  },
+  "Tomato___healthy": {
+    "crop_name": "Tomato",
+    "disease_name": "Healthy Foliage",
+    "is_healthy": true,
+    "pathogen": "None (Healthy Tissue)",
+    "symptoms": [
+      "Uniform vibrant green leaves with well-defined margins and natural leaf texture.",
+      "No visible chlorosis, necrosis, bullseye spots, water-soaking, or fungal sporulation.",
+      "Vigorous stem and leaf node development."
+    ],
+    "prevention": [
+      "Maintain consistent soil moisture and balanced macro- and micro-nutrient fertility.",
+      "Inspect plants weekly for early signs of pest presence or environmental stress.",
+      "Practice crop rotation and sanitize equipment between seasons."
+    ],
+    "management": [
+      "Continue routine cultural care and regular pest monitoring.",
+      "Support plant stems with clean stakes or trellises as vines mature."
+    ],
+    "limitations": "Healthy appearance at one time does not preclude asymptomatic latent infections or root pathogens.",
+    "references": ["FAO Good Agricultural Practices Guide", "University Extension Plant Diagnostic Clinics"]
+  },
+  "Potato___Early_blight": {
+    "crop_name": "Potato",
+    "disease_name": "Early Blight",
+    "is_healthy": false,
+    "pathogen": "Alternaria solani",
+    "symptoms": [
+      "Small, dark brown to black spots with concentric ring patterns on older, lower leaves.",
+      "Yellow chlorotic halos around lesions; affected leaves senesce early.",
+      "Tubers may develop dark, sunken, circular lesions with raised borders."
+    ],
+    "prevention": [
+      "Plant certified disease-free seed tubers.",
+      "Ensure adequate nitrogen and potassium fertility; stressed plants are significantly more susceptible.",
+      "Rotate fields away from potatoes, tomatoes, and related nightshades for at least 3 years."
+    ],
+    "management": [
+      "Avoid overhead irrigation late in the afternoon to minimize prolonged leaf wetness.",
+      "Harvest tubers only after vine desiccation and tuber skins have cured properly.",
+      "Consult local extension specialists for IPM-based fungicide timing."
+    ],
+    "limitations": "Often confused with brown spot (Alternaria alternata) or physiological aging.",
+    "references": ["University of Idaho Potato Research", "Michigan State University Potato IPM"]
+  },
+  "Potato___Late_blight": {
+    "crop_name": "Potato",
+    "disease_name": "Late Blight",
+    "is_healthy": false,
+    "pathogen": "Phytophthora infestans",
+    "symptoms": [
+      "Dark, water-soaked lesions expanding rapidly on foliage and stems.",
+      "White downy or cottony mildew visible on leaf undersides in high humidity.",
+      "Tubers exhibit irregular brown or purplish dry rot penetrating into tuber flesh."
+    ],
+    "prevention": [
+      "Plant only certified seed potatoes with late blight inspection certificates.",
+      "Destroy potato cull piles, volunteer plants, and infected tubers prior to emergence.",
+      "Hill soil properly around tubers to create a physical barrier against washing spores."
+    ],
+    "management": [
+      "Destroy heavily infested field hotspots to contain regional spore dispersal.",
+      "Ensure vines are completely dead before harvesting tubers to prevent tuber inoculation.",
+      "Report outbreaks to local agricultural extension agents immediately."
+    ],
+    "limitations": "The historical pathogen of the Irish Potato Famine; causes devastatingly swift losses under wet, cool conditions.",
+    "references": ["International Potato Center (CIP)", "USABlight National Forecasting Network"]
+  },
+  "Potato___healthy": {
+    "crop_name": "Potato",
+    "disease_name": "Healthy Foliage",
+    "is_healthy": true,
+    "pathogen": "None (Healthy Tissue)",
+    "symptoms": [
+      "Sturdy stems with deep green compound leaves and intact leaflets.",
+      "Absence of necrotic patches, wilting, mosaic patterns, or leaf curling."
+    ],
+    "prevention": [
+      "Maintain proper hilling, weed management, and balanced irrigation.",
+      "Scout fields periodically for Colorado potato beetles and aphid vectors."
+    ],
+    "management": [
+      "Maintain standard agronomic fertilization and pest scouting protocols."
+    ],
+    "limitations": "Foliage health does not guarantee absence of subterranean tuber defects or nematodes.",
+    "references": ["CABI Agriculture and Bioscience", "Extension Potato Field Manual"]
+  },
+  "Corn_(maize)___Common_rust_": {
+    "crop_name": "Corn (Maize)",
+    "disease_name": "Common Rust",
+    "is_healthy": false,
+    "pathogen": "Puccinia sorghi",
+    "symptoms": [
+      "Small, powdery, cinnamon-brown to reddish pustules scattered over both upper and lower leaf surfaces.",
+      "Pustules rupture the leaf epidermis, releasing powdery rust spores.",
+      "Leaves turn chlorotic and ragged as pustules coalesce in severe infections."
+    ],
+    "prevention": [
+      "Plant rust-resistant or tolerant corn hybrids suitable for your geographical zone.",
+      "Maintain appropriate planting dates to avoid high summer spore flights."
+    ],
+    "management": [
+      "Common rust rarely causes severe yield loss in commercial field corn; sweet corn is more vulnerable.",
+      "Fungicide intervention is usually only economically justified on high-value sweet corn or susceptible inbreds when conditions favor sustained epidemics.",
+      "Consult certified agronomists before chemical treatment."
+    ],
+    "limitations": "Can be confused with southern corn rust (Puccinia polysora), which has smaller, lighter orange pustules predominantly on upper leaf surfaces.",
+    "references": ["Iowa State University Extension - Corn Diseases", "Purdue Extension Field Crop Diagnostics"]
+  },
+  "Corn_(maize)___Northern_Leaf_Blight": {
+    "crop_name": "Corn (Maize)",
+    "disease_name": "Northern Corn Leaf Blight",
+    "is_healthy": false,
+    "pathogen": "Setosphaeria turcica (syn. Exserohilum turcicum)",
+    "symptoms": [
+      "Long, elliptical, grayish-green or tan cigar-shaped lesions (1 to 6 inches long) on leaves.",
+      "Lesions run parallel to leaf veins and may show dark fungal spores during damp weather.",
+      "Extensive leaf blighting reduces photosynthetic area, impairing grain fill."
+    ],
+    "prevention": [
+      "Select resistant hybrids with documented multigenic or Ht-gene resistance.",
+      "Rotate crops with non-grasses (such as soybeans) to accelerate residue decomposition.",
+      "Incorporate or manage corn residue where conservation tillage allows."
+    ],
+    "management": [
+      "Scout corn canopies around silking stage, especially under humid, moderate-temperature conditions (65-80°F).",
+      "Consult local university extension economic threshold guides before considering fungicide applications."
+    ],
+    "limitations": "Lesions may be atypical or restricted in resistant hybrid varieties.",
+    "references": ["University of Illinois Extension", "Crop Protection Network (CPN)"]
+  },
+  "Corn_(maize)___healthy": {
+    "crop_name": "Corn (Maize)",
+    "disease_name": "Healthy Foliage",
+    "is_healthy": true,
+    "pathogen": "None (Healthy Tissue)",
+    "symptoms": [
+      "Long, arching, uniform green leaves with smooth venation and sharp margins.",
+      "No stripe lesions, rust pustules, or leaf tip scorch."
+    ],
+    "prevention": [
+      "Ensure proper seedbed preparation, adequate soil nitrogen, and drainage.",
+      "Follow regional scouting timelines for early armyworm or stalk borer damage."
+    ],
+    "management": [
+      "Continue standard fertilizer management and growth stage monitoring."
+    ],
+    "limitations": "Visual foliar assessment should be paired with soil and root evaluations.",
+    "references": ["Pioneer Agronomy Library", "Extension Field Crop Manual"]
+  },
+  "Apple___Apple_scab": {
+    "crop_name": "Apple",
+    "disease_name": "Apple Scab",
+    "is_healthy": false,
+    "pathogen": "Venturia inaequalis (Fungus)",
+    "symptoms": [
+      "Dull, olive-green to black velvety spots on leaves, becoming puckered or distorted.",
+      "Infected leaves turn yellow and drop prematurely in mid-summer.",
+      "Rough, corky, olive-brown scabs or cracks on fruit surface."
+    ],
+    "prevention": [
+      "Plant scab-resistant apple cultivars (e.g., Liberty, Freedom, Enterprise).",
+      "Rake, chop, or compost fallen autumn leaves to eliminate overwintering fungal pseudothecia.",
+      "Prune canopies annually to ensure sunlight and air reach all interior branches."
+    ],
+    "management": [
+      "Apply protective or bio-fungicide sprays beginning at green tip through petal fall according to Mills scab infection periods.",
+      "Consult university pomology extension guidelines for spray timing."
+    ],
+    "limitations": "Foliar infection timing depends heavily on the duration of wetting hours and temperature (Mills chart).",
+    "references": ["Cornell University Fruit Resources", "Washington State University Tree Fruit Extension"]
+  },
+  "Apple___Black_rot": {
+    "crop_name": "Apple",
+    "disease_name": "Black Rot (Frogeye Leaf Spot)",
+    "is_healthy": false,
+    "pathogen": "Diplodia seriata (syn. Botryosphaeria obtusa)",
+    "symptoms": [
+      "Leaf spots known as 'frogeye': circular purple spots that enlarge with tan centers and purple margins.",
+      "Fruit rot starting as a brown spot that turns into concentric dark and light rings, eventually mummifying the apple.",
+      "Sunken, reddish-brown cankers on branches and tree limbs."
+    ],
+    "prevention": [
+      "Prune out dead wood, fire blight strikes, and cankers at least 6 inches below visible infection.",
+      "Remove mummified apples hanging on the tree or lying on the orchard floor.",
+      "Sanitize pruning equipment between cuts."
+    ],
+    "management": [
+      "Burn or deeply bury removed diseased wood and mummies to reduce inoculum reservoirs.",
+      "Consult local tree fruit specialists for recommended integrated spray programs."
+    ],
+    "limitations": "Can be confused with cedar apple rust on leaves during very early lesion development.",
+    "references": ["Penn State Extension Tree Fruit Production Guide", "University of Kentucky Plant Pathology"]
+  },
+  "Apple___healthy": {
+    "crop_name": "Apple",
+    "disease_name": "Healthy Foliage",
+    "is_healthy": true,
+    "pathogen": "None (Healthy Tissue)",
+    "symptoms": [
+      "Clean, glossy, serrated green leaves with intact petioles and no fungal spotting.",
+      "Balanced shoot growth and healthy blossom/spur formation."
+    ],
+    "prevention": [
+      "Conduct regular canopy pruning, clean weed rings, and balanced orchard nutrition.",
+      "Monitor for mite or aphid buildup on underside of leaves."
+    ],
+    "management": [
+      "Maintain orchard sanitation and integrated orchard management schedules."
+    ],
+    "limitations": "Does not rule out internal wood rots or subterranean root collar rot.",
+    "references": ["Penn State Extension", "UC Davis IPM Apple Guidelines"]
+  },
+  "Grape___Black_rot": {
+    "crop_name": "Grape",
+    "disease_name": "Black Rot",
+    "is_healthy": false,
+    "pathogen": "Phyllosticta ampelicida (syn. Guignardia bidwellii)",
+    "symptoms": [
+      "Small, circular reddish-brown spots with dark borders on leaves.",
+      "Tiny black specks (pycnidia) visible inside leaf lesions in concentric arrangements.",
+      "Berries shrivel into hard, black, wrinkled mummies covered in spore-producing bodies."
+    ],
+    "prevention": [
+      "Prune vines in winter to open the trellis canopy for rapid leaf drying.",
+      "Remove and destroy mummified berries from the vine and vineyard floor during pruning.",
+      "Maintain effective weed control beneath vines to enhance low-level air movement."
+    ],
+    "management": [
+      "Early season protective sprays from bud break through 4 to 6 weeks post-bloom are critical.",
+      "Consult viticulture extension specialists for disease-forecasting and spray schedules."
+    ],
+    "limitations": "Severe berry infection leads to near total loss if not managed during the immediate post-bloom window.",
+    "references": ["Ohio State University Viticulture Extension", "Virginia Tech Grape Pathology"]
+  },
+  "Grape___healthy": {
+    "crop_name": "Grape",
+    "disease_name": "Healthy Foliage",
+    "is_healthy": true,
+    "pathogen": "None (Healthy Tissue)",
+    "symptoms": [
+      "Broad, lobed green leaves with smooth venation and absence of necrotic spots or mildew.",
+      "Normal tendril and cane development."
+    ],
+    "prevention": [
+      "Canopy management, shoot positioning, and timely leaf pulling in the fruiting zone."
+    ],
+    "management": [
+      "Continue regular viticultural scouting and canopy maintenance."
+    ],
+    "limitations": "Surface leaf appearance does not exclude latent viral infections like leafroll virus.",
+    "references": ["UC Davis Viticulture & Enology", "Cornell Viticulture"]
+  },
+  "Pepper__bell___Bacterial_spot": {
+    "crop_name": "Bell Pepper",
+    "disease_name": "Bacterial Spot",
+    "is_healthy": false,
+    "pathogen": "Xanthomonas euvesicatoria / Xanthomonas campestris",
+    "symptoms": [
+      "Small, circular to irregular water-soaked spots on leaves that turn dark brown to black.",
+      "Lower leaf surfaces often show slightly raised, blister-like centers.",
+      "Premature leaf drop exposing fruit to solar injury (sunscald).",
+      "Rough, circular raised scabs or warts on fruit."
+    ],
+    "prevention": [
+      "Plant certified pathogen-free seed or resistant bell pepper cultivars.",
+      "Practice 2- to 3-year crop rotation away from solanaceous crops.",
+      "Avoid overhead sprinkler irrigation and working among plants when wet."
+    ],
+    "management": [
+      "Remove infected debris immediately after harvest.",
+      "Apply copper bactericides where permitted, keeping in mind potential bacterial copper resistance.",
+      "Consult local extension agents for resistance-breaking biorationals."
+    ],
+    "limitations": "Symptoms can resemble Cercospora leaf spot in initial stages.",
+    "references": ["University of Georgia Extension", "Florida Cooperative Extension"]
+  },
+  "Pepper__bell___healthy": {
+    "crop_name": "Bell Pepper",
+    "disease_name": "Healthy Foliage",
+    "is_healthy": true,
+    "pathogen": "None (Healthy Tissue)",
+    "symptoms": [
+      "Vibrant green, smooth leaves with intact margins and firm petioles.",
+      "Good branching habit and vigorous flower bud set."
+    ],
+    "prevention": [
+      "Provide even irrigation, avoid waterlogged soils, and maintain balanced fertility."
+    ],
+    "management": [
+      "Routine scouting and standard crop management."
+    ],
+    "limitations": "Visual foliar health should be supplemented with root and soil assessments.",
+    "references": ["UC Davis Vegetable Research & Information Center"]
+  }
+}
